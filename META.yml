@@ -1,0 +1,29 @@
+--- #YAML:1.0
+name:               GitMeta
+version:            0.01
+abstract:           Clone/update many Git repositories using Meta repos
+author:
+    - Mike Schilli <cpan@perlmeister.com>
+license:            unknown
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    File::Temp:       0.22
+    Log::Log4perl:    1
+    LWP::UserAgent:   5
+    Sysadm::Install:  0.33
+    XML::Simple:      2.18
+    YAML:             0.71
+resources:
+    repository:  http://github.com/mschilli/gitmeta
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.55_02
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4

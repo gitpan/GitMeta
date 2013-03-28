@@ -12,5 +12,6 @@ MYMETA.json
 MYMETA.yml
 README
 t/001Basic.t
+t/002Live.t
 META.yml                                 Module YAML meta-data (added by MakeMaker)
 META.json                                Module JSON meta-data (added by MakeMaker)
